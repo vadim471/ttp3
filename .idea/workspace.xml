@@ -9,8 +9,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b6a97071-a0f3-4ba4-8da2-7a523f8aaf84" name="Changes" comment="configure server">
+    <list default="true" id="b6a97071-a0f3-4ba4-8da2-7a523f8aaf84" name="Changes" comment="done">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/webContexts.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/FileServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/FileServlet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/files.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/files.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,32 +49,39 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Maven.ttp3 [org.apache.maven.plugins:maven-clean-plugin:3.2.0:clean].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.ttp3 [org.apache.maven.plugins:maven-deploy-plugin:3.1.1:deploy].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.ttp3 [org.apache.maven.plugins:maven-install-plugin:3.1.1:install-file].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.ttp3 [org.apache.maven.plugins:maven-install-plugin:3.1.1:install].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.ttp3 [org.apache.maven.plugins:maven-war-plugin:3.4.0:war].executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;Tomcat Server.tom.executor&quot;: &quot;Run&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Maven.ttp3 [clean].executor": "Run",
+    "Maven.ttp3 [install].executor": "Run",
+    "Maven.ttp3 [org.apache.maven.plugins:maven-clean-plugin:3.2.0:clean].executor": "Run",
+    "Maven.ttp3 [org.apache.maven.plugins:maven-deploy-plugin:3.1.1:deploy].executor": "Run",
+    "Maven.ttp3 [org.apache.maven.plugins:maven-install-plugin:3.1.1:install-file].executor": "Run",
+    "Maven.ttp3 [org.apache.maven.plugins:maven-install-plugin:3.1.1:install].executor": "Run",
+    "Maven.ttp3 [org.apache.maven.plugins:maven-war-plugin:3.4.0:war].executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Tomcat Server.tom.executor": "Run",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "SDKs",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/webapp/" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="org.example" />
     </key>
   </component>
   <component name="RunManager">
@@ -184,7 +195,13 @@
       <workItem from="1708494310932" duration="4770000" />
       <workItem from="1708500243241" duration="532000" />
       <workItem from="1708500779319" duration="768000" />
-      <workItem from="1708696182449" duration="6969000" />
+      <workItem from="1708696182449" duration="7305000" />
+      <workItem from="1709022646273" duration="144000" />
+      <workItem from="1709109630286" duration="51000" />
+      <workItem from="1709207744278" duration="438000" />
+      <workItem from="1709280432270" duration="6065000" />
+      <workItem from="1709526311990" duration="1634000" />
+      <workItem from="1710056648869" duration="16120000" />
     </task>
     <task id="LOCAL-00001" summary="configure server">
       <option name="closed" value="true" />
@@ -202,7 +219,15 @@
       <option name="project" value="LOCAL" />
       <updated>1708446683129</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="done">
+      <option name="closed" value="true" />
+      <created>1708708956189</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1708708956189</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -210,6 +235,11 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="configure server" />
-    <option name="LAST_COMMIT_MESSAGE" value="configure server" />
+    <MESSAGE value="done" />
+    <option name="LAST_COMMIT_MESSAGE" value="done" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

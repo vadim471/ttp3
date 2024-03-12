@@ -32,6 +32,9 @@
     <title><FirstJSP></title>
 </head>
 <body>
+<form action="files" method="POST">
+    <input type="submit" value="Выйти" id="logoutButton">
+</form>
     <h3><%=new Date()%></h3>
     <h1><%=path%></h1>
     <hr/>
