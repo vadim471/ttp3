@@ -9,13 +9,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b6a97071-a0f3-4ba4-8da2-7a523f8aaf84" name="Changes" comment="without saving sessions">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/FileServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/FileServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/files.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/files.jsp" afterDir="false" />
-    </list>
+    <list default="true" id="b6a97071-a0f3-4ba4-8da2-7a523f8aaf84" name="Changes" comment="jdbc" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -205,6 +199,7 @@
       <workItem from="1710518013651" duration="114000" />
       <workItem from="1710730227174" duration="3059000" />
       <workItem from="1711450738515" duration="3357000" />
+      <workItem from="1711820205661" duration="320000" />
     </task>
     <task id="LOCAL-00001" summary="configure server">
       <option name="closed" value="true" />
@@ -238,7 +233,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710239574788</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="jdbc">
+      <option name="closed" value="true" />
+      <created>1711820320556</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1711820320556</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -248,7 +251,8 @@
     <MESSAGE value="configure server" />
     <MESSAGE value="done" />
     <MESSAGE value="without saving sessions" />
-    <option name="LAST_COMMIT_MESSAGE" value="without saving sessions" />
+    <MESSAGE value="jdbc" />
+    <option name="LAST_COMMIT_MESSAGE" value="jdbc" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
