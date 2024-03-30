@@ -15,10 +15,10 @@
 <%@ page import="java.time.LocalDateTime" %>
 <%@ page import="java.text.SimpleDateFormat" %>
 <%
-    String path = request.getParameter("path");
-    Path parentpath = Paths.get(path).getParent();
-    String parentPath = parentpath.toString();
-%><%!
+    String path = (String)request.getAttribute("path");
+    String parentPath = (String)request.getAttribute("parentPath");
+%>
+<%!
     public String formatTime(File file) {
         Date date = new java.util.Date(file.lastModified());
         SimpleDateFormat sdf = new java.text.SimpleDateFormat("MM/dd/yyyy h:mm:ss a");
@@ -38,7 +38,7 @@
     <h3><%=new Date()%></h3>
     <h1><%=path%></h1>
     <hr/>
-    <a href="<%="?path=" + parentPath%>">Up</a>
+    <a href="<%="files?path=" + parentPath%>">Up</a>
     <table>
         <tr>
             <td>File</td>
